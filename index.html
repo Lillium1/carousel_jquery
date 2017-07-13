@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>::Carousel Jquery::</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- RESPONSIVO -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- ICONOS Fontawesome -->
+  	<script src="https://use.fontawesome.com/4154d90246.js"></script>
+  	<!-- TIPOGRAFIA -->
+	<link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+	<!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- HEADER -->	
+	<header>
+		<nav class="navbar colorsh">
+			<div class="container text-center titulo">
+				<h2>I <img src="img/cobaya.png" alt=""> CUY </h2>
+			</div>
+		</nav>	
+	</header>
+
+	<div class="container">
+    	<div class="row">
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+			<!-- botones para retroceder -->
+				<div class="flechas">
+					<div class="f_izq">
+						<button class="#" id="f_antes"><i class='fa fa-chevron-left' aria-hidden='true'></i></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+				<!-- fotos -->
+				<div id="fotos"></div>
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<!-- boton para adelantar -->
+				<div class="flechas">
+					<div class="f_der">
+						<button class="" id="f_siguiente"><i class='fa fa-chevron-right' aria-hidden='true'></i></button>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<!-- seleccion de foto -->
+				<div id="circulos">
+					<button type="button" id="pelotita1" class="btn btn-circle"></button>
+                    <button type="button" id="pelotita2" class="btn btn-circle"></button>
+                    <button type="button" id="pelotita3" class="btn btn-circle"></button>
+                    <button type="button" id="pelotita4" class="btn btn-circle"></button>
+                    <button type="button" id="pelotita5" class="btn btn-circle"></button>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<footer class="colorsh">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<h5>I <i class="fa fa-heart" aria-hidden="true"></i> Cuy | Paulina Gonzalez C. 2017 </h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- * * * * *  RECURSOS * * * * *  -->
+
+	<!-- JQUERY AJAX V1 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>

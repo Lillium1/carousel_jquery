@@ -1,0 +1,23 @@
+body {
+	background-color: rgba(2109, 189, 255, 0.5);
+	font-family: 'Fresca', sans-serif;
+}
+
+.colorsh {
+	background-color: #cbafed;
+	
+}
+
+.titulo {
+	color: white;
+}
+
+#fotos img{
+	width: 900px;
+	height: 600px;
+	float: center;
+}
+
+#circulos button {
+	border-radius: 50%;
+}
